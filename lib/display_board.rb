@@ -9,6 +9,10 @@ def display_board(board)
  end
 
 
-board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
-
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+puts "   |   |   "
+puts "-----------"
+puts "   | #{board(4)} |   "
+puts "-----------"
+puts "   |   |   "
 display_board(board)
